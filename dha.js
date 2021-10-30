@@ -2464,7 +2464,7 @@ sendFileFromUrl(res.all[0].image, image, {quoted: mek, caption: thumbInfo})
 res = await y2mateA(res.all[0].url).catch(e => {
 reply('_[ ! ] Error Saat Memasuki Web Y2mate_')
 })
-sendFileFromUrl(res[0].link, document, {quoted: mek, mimetype: 'audio/mp3', filename: res[0].output})
+sendFileFromUrl(res[0].link, document, {quoted: mek, mimetype: 'audio/mp4', filename: res[0].output})
 }
 break
 case 'play2':   
