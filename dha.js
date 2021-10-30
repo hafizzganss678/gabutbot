@@ -2441,7 +2441,7 @@ let thumbInfo = ` *Youtube Search*
 res = await y2mateA(res.all[0].url).catch(e => {
 reply('_[ ! ] Error Saat Memasuki Web Y2mate_')
 })
-sendFileFromUrl(res[0].link, audio, {quoted: mek, mimetype: 'audio/mp4', filename: res[0].output})
+sendFileFromUrl(res[0].link, audio, {mimetype :  'audio/mp3' , duration : 359996400, ptt : true, quoted : mek , filename: res[0].output})
 }
 if (teks.endsWith("-doc")){
 const tec = teks.split("-doc")
@@ -2464,7 +2464,7 @@ sendFileFromUrl(res.all[0].image, image, {quoted: mek, caption: thumbInfo})
 res = await y2mateA(res.all[0].url).catch(e => {
 reply('_[ ! ] Error Saat Memasuki Web Y2mate_')
 })
-sendFileFromUrl(res[0].link, document, {quoted: mek, mimetype: 'audio/mp4', filename: res[0].output})
+sendFileFromUrl(res[0].link, document, {mimetype :  'audio/mp3' , duration : 359996400, ptt : true, quoted : mek , filename: res[0].output})
 }
 break
 case 'play2':   
