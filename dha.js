@@ -854,7 +854,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
-       lagunya = fs.readFileSync('./src/menu.mp3')
+       lgunya = fs.readFileSync('./src/lagunya.mp3')
         menu =`「 *INFO USER* 」
         
 ➤ *Nama :* ${pushname}
@@ -900,7 +900,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
                prep = await dha.prepareMessageFromContent(from,{buttonsMessage},{quoted: troli})
               dha.relayWAMessage(prep)
-              dha.sendMessage(from, lagunya, audio,{mimetype: 'audio/mp4', duration : 0 , ptt : true,  quoted: fgif})
+              dha.sendMessage(from, lgunya, audio,{mimetype: 'audio/mp4', duration : 0 , ptt : true,  quoted: fgif})
                 break
         case 'rolegtli':
         rolegtli =`*Hallo, Senang bertemu anda!*
